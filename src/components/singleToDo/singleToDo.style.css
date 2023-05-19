@@ -1,0 +1,7 @@
+.single-todo {
+  display: flex;
+  gap: 3px;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
