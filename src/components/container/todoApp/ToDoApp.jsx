@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import "./toDoApp.style.css";
 import SingleToDo from "../../singleToDo/SingleToDo";
 import ToDoInput from "../../todoInput/ToDoInput";
+import CounterApp from "../../counterApp/CounterApp";
 
 const defaultToDo = [
   "90 min of practice",
@@ -30,6 +31,7 @@ const ToDoApp = () => {
           {!todoList.length && (
             <p className="notes"> please, add your things todo</p>
           )}
+          <CounterApp />
         </div>
       </div>
     </div>
