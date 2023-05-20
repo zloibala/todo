@@ -1,6 +1,10 @@
 .todo-container {
   display: flex;
   justify-content: center;
+  width: 700px;
+  height: 400px;
+  background-color: rgb(255, 174, 188);
+  border-radius: 10px;
 }
 .todo-box {
   display: flex;
